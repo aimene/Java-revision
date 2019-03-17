@@ -36,7 +36,7 @@ public class PourVoirLeRM {
     protected void finalize() throws Throwable {
         System.err.println("Destruction de l'instance numéro " + numero);
         // Pour fermer l'application à la première destruction
-        System.exit(0);
+        //System.exit(0);
     }
 
 }
